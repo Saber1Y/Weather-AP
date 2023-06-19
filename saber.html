@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sabr.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="w3-container w3-center w3-padding-64">
+      <div id="search-bar">
+        <input
+          type="text"
+          id=""
+          placeholder="Enter City Name"
+          spellcheck="false"
+        />
+        <button id="seacrh-btn">
+          <img src="/images/search.jpg" width="25px" />
+        </button>
+      </div>
+      <div class="weater">
+        <img src="/images/clouds.png" class="icon" />
+        <h1 id="temperature">22°C</h1>
+        <h2 id="city">Abuja</h2>
+        <div class="details">
+          <div class="w3-col">
+            <img src="/images/humidity.png" />
+            <div>
+              <p class="w3-margin-top w3-cursive w3-xlarge" id="humidity">
+                40%
+              </p>
+
+              <p class="w3-margin-top w3-cursive w3-large">HUMIDITY</p>
+            </div>
+          </div>
+
+          <div class="w3-col">
+            <img src="/images/wind.png" />
+            <div>
+              <p class="w3-margin-top w3-cursive w3-xlarge" id="wind">
+                22 km/h
+              </p>
+              <p class="w3-margin-top w3-cursive w3large">WIND SPEED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/saber.js"></script>
+  </body>
+</html>
